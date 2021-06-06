@@ -35,7 +35,7 @@
           <a href="#" class="btn">Buy Now</a>
         </div>
       </section>
-      <section class="card">
+      <section class="card" data-aos="fade-left">
         <img src="img/paint-2.png" alt="" />
         <div>
           <h3>Acrylic Painting Two</h3>
@@ -48,7 +48,7 @@
           <a href="#" class="btn">Buy Now</a>
         </div>
       </section>
-      <section class="card">
+      <section class="card" data-aos="fade-right">
         <img src="img/paint-3.png" alt="" />
         <div>
           <h3>Acrylic Painting Three</h3>
@@ -61,7 +61,7 @@
           <a href="#" class="btn">Buy Now</a>
         </div>
       </section>
-      <section class="card">
+      <section class="card" data-aos="fade-left">
         <img src="img/paint-4.png" alt="" />
         <div>
           <h3>Acrylic Painting Four</h3>
@@ -74,7 +74,7 @@
           <a href="#" class="btn">Buy Now</a>
         </div>
       </section>
-      <section class="card">
+      <section class="card" data-aos="fade-right">
         <img src="img/paint-5.png" alt="" />
         <div>
           <h3>Acrylic Painting Five</h3>
@@ -88,6 +88,14 @@
         </div>
       </section>
     </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 1000,
+        delay: 0,
+      });
+    </script>
     <script src="js/main.js"></script>
   </body>
 </html>
